@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Меню -->
+            <div class="col-md-3 d-flex flex-column flex-shrink-0 p-3 text-white bg-dark vh-100 sticky-top">
+                <div class="text-center py-3 border-bottom">
+                    <i class="bi bi-list fs-3"></i>
+                    <span class="ms-2 fw-bold">Меню</span>
+                </div>
+
+                <div class="list-group list-group-flush mt-3">
+                    <a href="home.html" class="list-group-item list-group-item-action bg-dark border-dark text-white"><i class="bi bi-house"></i> Главная</a>
+                    <a href="categories.html" class="list-group-item list-group-item-action bg-dark border-dark text-white"><i class="bi bi-speedometer2"></i> Категории</a>
+                    <a href="orders.html" class="list-group-item list-group-item-action bg-dark border-dark text-white"><i class="bi bi-calendar3"></i> Заказы</a>
+                    <a href="contacts.html" class="list-group-item list-group-item-action bg-dark border-dark text-white"><i class="bi bi-telephone-inbound"></i> Контакты</a>
+                </div>
+
+                <div class="mt-auto p-3 border-top">
+                    <div class="dropdown">
+                        <a href="#" class="d-flex align-items-center text-decoration-none dropdown-toggle"
+                           data-bs-toggle="dropdown">
+                            <img src="https://i.pinimg.com/originals/39/cc/8f/39cc8f5f97a74a15863e596d9b8e56b7.jpg" class="rounded-circle me-2"
+                                 alt="Аватар" width="40" height="40">
+                            <span>Пользователь</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Профиль</a></li>
+                            <li><a class="dropdown-item" href="#">Выход</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Основной контент -->
+            <div class="col-md-9 py-4">
+                <div class="container">
+                    <h1 class="mb-4 text-center">Каталог</h1>
+                    <p class="lead">Выберите товары из нашего ассортимента</p>
+
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <!-- Товар 1 -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="https://sun9-67.userapi.com/s/v1/if1/HxBBuOq6D9Md2AgzzWb5dmyPpGLdeFOt91F0WXmMqknVw3Jfeh7WStJb2_sbo1nUBKzPjdGY.jpg?quality=96&as=32x24,48x36,72x54,108x81,160x120,240x180,360x270,480x360,540x405,600x450&from=bu" class="card-img-top" alt="Товар 1">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Товар 1</h5>
+                                    <p class="card-text flex-grow-1">Рыба пытается научиться читать, но у неё ничего не получается. Буквы для неё — это просто странные чёрные точки, которые не складываются в слова. Она видит их, но не может понять ни единого смысла.</p>
+                                    <div class="d-flex justify-content-between align-items-center mt-auto pt-3">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Смотреть</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Редактировать</button>
+                                        </div>
+                                        <small class="text-muted"> 9 mins </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Товар 2 -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="https://sun9-87.userapi.com/s/v1/if1/loscWleyrz-Q3Dnjw1J41Rf7qa-xDdFLzlo2oaehc4RFO44CDjbLk9e88hmG0hWtfBMEM8du.jpg?quality=96&as=32x24,48x36,72x54,108x81,160x120,240x180,360x270,480x360,540x405,600x450&from=bu" class="card-img-top" alt="Товар 1">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Товар 2</h5>
+                                    <p class="card-text">Рыба плавает вокруг книги, тыкается в неё носом, но страницы не перелистываются, а слова не становятся яснее. Она чувствует себя глупо и беспомощно.</p>
+                                    <div class="d-flex justify-content-between align-items-center mt-auto pt-3">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Смотреть</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Редактировать</button>
+                                        </div>
+                                        <small class="text-muted"> 9 mins </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Товар 3 -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="https://sun9-44.userapi.com/s/v1/if1/qYzqnirJYtIsawCjBUnDMRxvs2sfwXgLuo9qh6FK0UC3xDY19ZNJgHllRSS-HxUytVRcQ6FK.jpg?quality=96&as=32x24,48x36,72x54,108x81,160x120,240x180,360x270,480x360,540x405,600x450&from=bu" class="card-img-top" alt="Товар 1">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Товар 3</h5>
+                                    <p class="card-text">Именно так я и чувствую себя, когда пытаюсь выровнять кнопку или поменять шрифт. Кажется, что всё должно быть просто, но на практике выходит полная бессмыслица.</p>
+                                    <div class="d-flex justify-content-between align-items-center mt-auto pt-3">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Смотреть</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Редактировать</button>
+                                        </div>
+                                        <small class="text-muted"> 9 mins </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Товар 4 -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="https://sun9-3.userapi.com/s/v1/if1/ai5Lf3KeB7pUngn_r3f41Z0wEpsQQQEtbxG5HS6gqpd9bU08io5O20pdB9JXuo4jadEMUuZ4.jpg?quality=96&as=32x24,48x36,72x54,108x81,160x120,240x180,360x270,480x360,540x405,600x450&from=bu" class="card-img-top" alt="Товар 1">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Товар 4</h5>
+                                    <p class="card-text">В общем, эта история — идеальная метафора моих мучений с вёрсткой. А этот текст просто заполняет собой пространство. По крайней мере, он честный. </p>
+                                    <div class="d-flex justify-content-between align-items-center mt-auto pt-3">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Смотреть</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Редактировать</button>
+                                        </div>
+                                        <small class="text-muted"> 9 mins </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
